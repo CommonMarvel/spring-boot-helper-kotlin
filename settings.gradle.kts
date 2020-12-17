@@ -1,1 +1,1 @@
-rootProject.name = "helper"
+rootProject.name = "spring-boot-helper-kotlin"
