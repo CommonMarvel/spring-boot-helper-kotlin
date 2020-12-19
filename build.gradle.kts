@@ -18,8 +18,12 @@ plugins {
 }
 
 group = "common.marvel"
-version = "0.1.1"
-java.sourceCompatibility = JavaVersion.VERSION_11
+version = "0.1.9"
+
+configure<JavaPluginExtension> {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
 
 repositories {
     jcenter()

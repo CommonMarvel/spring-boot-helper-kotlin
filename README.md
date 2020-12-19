@@ -2,8 +2,15 @@
 
 ### install
 
+> build.gradle.kts
 ```
+repositories {
+    ...
+    maven("https://commonmarvel.bintray.com/spring-boot-helper-kotlin")
+}
+
 dependencies {
+    ...
     api("common.marvel:spring-boot-helper-kotlin:0.1.1")
 }
 ```
