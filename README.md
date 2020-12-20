@@ -1,3 +1,5 @@
+[ ![Download](https://api.bintray.com/packages/commonmarvel/spring-boot-helper-kotlin/spring-boot-helper-kotlin/images/download.svg) ](https://bintray.com/commonmarvel/spring-boot-helper-kotlin/spring-boot-helper-kotlin/_latestVersion)
+
 # spring-boot-helper-kotlin
 
 ### install
@@ -11,7 +13,7 @@ repositories {
 
 dependencies {
     ...
-    api("common.marvel:spring-boot-helper-kotlin:0.1.1")
+    api("common.marvel:spring-boot-helper-kotlin:0.1.10")
 }
 ```
 
