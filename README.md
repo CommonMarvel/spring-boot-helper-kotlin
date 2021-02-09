@@ -8,7 +8,7 @@
 ```
 repositories {
     ...
-    maven("https://commonmarvel.bintray.com/spring-boot-helper-kotlin")
+    maven("https://dl.bintray.com/common-marvel/kotlin")
 }
 
 dependencies {
