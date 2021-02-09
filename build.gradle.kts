@@ -88,8 +88,8 @@ bintray {
     setPublications("default")
     pkg(
         delegateClosureOf<com.jfrog.bintray.gradle.BintrayExtension.PackageConfig> {
-            userOrg = "commonmarvel"
-            repo = "spring-boot-helper-kotlin"
+            userOrg = "common-marvel"
+            repo = "kotlin"
             name = "spring-boot-helper-kotlin"
             websiteUrl = "https://github.com/CommonMarvel/spring-boot-helper-kotlin"
             githubRepo = "CommonMarvel/spring-boot-helper-kotlin"
