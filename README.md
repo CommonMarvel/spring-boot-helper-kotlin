@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     ...
-    api("common.marvel:spring-boot-helper-kotlin:0.1.10")
+    api("common.marvel:spring-boot-helper-kotlin:0.1.11")
 }
 ```
 
