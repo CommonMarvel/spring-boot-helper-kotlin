@@ -18,7 +18,7 @@ plugins {
 }
 
 group = "common.marvel"
-version = "0.1.11"
+version = "0.1.12"
 
 configure<JavaPluginExtension> {
     sourceCompatibility = JavaVersion.VERSION_11
