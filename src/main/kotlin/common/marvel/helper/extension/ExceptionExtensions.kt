@@ -3,6 +3,7 @@ package common.marvel.helper.extension
 import common.marvel.helper.exception.BusinessException
 import common.marvel.helper.exception.ErrorCode
 import org.slf4j.Logger
+import java.util.Optional
 
 /**
  * @author leo
@@ -16,6 +17,11 @@ fun <T> T.errWhen(errorCode: ErrorCode, block: (t: T) -> Boolean): T {
 
 fun <T> T?.errWhenNull(errorCode: ErrorCode): T {
     return this ?: throw BusinessException(errorCode)
+}
+
+fun <T> Optional<T?>.errWhenGetNull(errorCode: ErrorCode): T {
+    if (this.isPresent) return this.get()
+    throw BusinessException(errorCode)
 }
 
 fun <T, R> T.errWhenException(errorCode: ErrorCode, block: (t: T) -> R): R = try {
